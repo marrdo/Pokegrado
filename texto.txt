@@ -1,0 +1,55 @@
+Nombre BBDD: PokeGrado
+Nombre User: PokeGrado
+Password BBDD, user: PokemonsGrado
+
+https://www.wikidex.net/wiki/Ayuda:Paleta_de_colores
+
+
+dir Porkegrado
+├──dir app
+│        ├──dir Controllers
+│        │         ├──dir Battle
+│        │         │          ├──Battle.php
+│        │         ├──dir Home
+│        │         │          ├──Home.php
+│        │         ├──dir Selection
+│        │         │          ├──Selection.php
+│        ├──dir Models
+│        │         ├──dir Battle
+│        │         │          ├──Battle.php
+│        │         ├──dir Home
+│        │         │          ├──Home.php
+│        │         ├──dir Selection
+│        │         │          ├──Selection.php
+│        ├──dir Seeds
+│        │         ├──dataFilling.php
+│        │         ├──Pokemon.php
+│        │         ├──PokemonRepository.php
+│        ├──dir Views
+│        │         ├──dir errors
+│        │         │          ├──error500.php
+│        │         ├──dir home
+│        │         │          ├──index.php
+│        │         ├──dir partial
+│        │         │          ├──battles.php
+│        │         │          ├──board.php
+│        │         │          ├──pokemonSelection.php
+│        │         │          ├──results.php
+│        │         ├──dir shared
+│        │         │          ├──footer.php
+│        │         │          ├──header.php
+│        │         ├──dir user
+│        │         │          ├──login.php
+│        │         │          ├──logout.php
+│        │         │          ├──register.php
+│        ├──Core.php
+│        ├──init.php
+├──dir config
+│        ├──dir db
+│        │         ├──dbConnection.php
+├──dir public
+│        ├──dir asset
+│        │         ├──dir css
+│        │         ├──dir img
+│        │         ├──dir js
+│        ├──index.php
